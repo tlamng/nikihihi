@@ -1,23 +1,6 @@
-/*
-
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
-
-╔════════════════════════════════════════════════════════════════════════╗
-║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
-║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
-║                                                                        ║
-╚════════════════════════════════════════════════════════════════════════╝
 
 
-*/
+
 
 module.exports = {
   TOKEN: "",
@@ -39,12 +22,12 @@ module.exports = {
   nodes: [
     {
         name: "Server",
-        host: "nodev4.fypmoon.org",
-        port: 1118,
-        password: "fypmoon.org",
+        host: "lavalinkv4-id.serenetia.com",
+        port: 443,
+        password: "https://dsc.gg/ajidevserver",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
-        secure: false
+        secure: true
     },
  ]
 }
